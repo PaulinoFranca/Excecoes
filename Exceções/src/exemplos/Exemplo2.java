@@ -12,13 +12,13 @@ public class Exemplo2 {
 		System.out.println("fim do main");
 	}
 
-	static void metodo1() throws ArrayIndexOutOfBoundsException {
+	static void metodo1() throws Exception {
 		System.out.println("inicio do metodo1");
 		metodo2();
 		System.out.println("fim do metodo1");
 	}
 
-	static void metodo2() throws ArrayIndexOutOfBoundsException {
+	static void metodo2() throws Exception {
 		System.out.println("inicio do metodo2");
 		int[] array = new int[10];
 		for (int i = 0; i <= 15; i++) {
